@@ -1,0 +1,19 @@
+---
+compiled_package_info:
+  package_name: iliketomoveit
+  address_alias_instantiation:
+    std: "00000000000000000000000000000001"
+  source_digest: FCB501AA20E170FAD07CE42BC546356537B6978730E2923D13D345DB954A0B93
+  build_flags:
+    dev_mode: false
+    test_mode: false
+    generate_docs: false
+    generate_abis: false
+    install_dir: ~
+    force_recompilation: false
+    additional_named_addresses: {}
+    architecture: ~
+    fetch_deps_only: false
+dependencies:
+  - MoveNursery
+  - MoveStdlib
