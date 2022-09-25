@@ -1,0 +1,30 @@
+Command `$ cd ..`:
+error: Found argument '$' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    move [OPTIONS] <SUBCOMMAND>
+
+For more information try --help
+Command `$ cat readme/args.txt`:
+error: Found argument '$' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    move [OPTIONS] <SUBCOMMAND>
+
+For more information try --help
+Command `sandbox run sources/debug_script.move --signers 0xf`:
+Error: Unable to find package manifest in '.' or in its parents
+Command `sandbox run sources/debug_script.move --signers 0xf`:
+Error: Unable to find package manifest in '.' or in its parents
+Command `build`:
+INCLUDING DEPENDENCY MoveNursery
+INCLUDING DEPENDENCY MoveStdlib
+BUILDING iliketomoveit
+Command `sandbox publish`:
+Error: Unable to find package manifest in '.' or in its parents
+Command `sandbox view storage/0x00000000000000000000000000000002/modules/Test.mv`:
+Error: Unable to find package manifest in '.' or in its parents
+Command `sandbox run sources/test_script.move --signers 0xf -v`:
+Error: Unable to find package manifest in '.' or in its parents
+Command `sandbox view storage/0x0000000000000000000000000000000F/resources/0x00000000000000000000000000000002::Test::Resource.bcs`:
+Error: Unable to find package manifest in '.' or in its parents
